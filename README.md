@@ -5,6 +5,20 @@
 yarn install
 ```
 
+## Add 3rd packages
+```
+yarn add ngrok env-cmd --dev
+```
+
+### Startup ngrok
+```
+# ngrok auth activation
+yarn ngrok_auth
+
+# startup ngrok app
+yarn ngrok        
+```
+
 ### Compiles and hot-reloads for development
 ```
 yarn run serve
